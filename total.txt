@@ -1,0 +1,4 @@
+total
+name	total
+bob	265
+john	190
