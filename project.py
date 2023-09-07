@@ -18,7 +18,8 @@ def topper(x,z):
         selected_columns = topper[['name', x]]
         mt.write(x+'\n')
         selected_columns.to_csv(mt, sep='\t', index=False)
-n=input("Enter the no of toppers you want:")
+#n=input("Enter the no of toppers you want:")
+n=3
 topper('english',n)
 topper('maths',n)
 topper('science',n)
